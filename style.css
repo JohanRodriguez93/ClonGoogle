@@ -1,0 +1,180 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #202124;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #bdc1c6;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline;
+  }
+header{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 0;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+.inicio{
+    width: 300px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    align-items: center;
+}
+.inicio li a{
+    margin-right: 16px;
+    color: white;
+}
+.puntos{
+    width: 16px;
+    height: 16px;
+    padding: 8px;
+}
+.puntos:hover{
+    background: #303134;
+    border-radius: 8px;
+}
+.foto{
+    padding: 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+main{
+    margin-top: 100px;
+    margin-bottom: 390px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.74);
+}
+main #logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#logo{
+    width: 272px;
+}
+#input{
+    width: 540px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.camara{
+    padding: 4px;
+    padding-right: 15px;
+    width: 24px;
+    height: 24px;
+}
+#input-search{
+    padding: 5px 8px 0 14px;
+    width: auto;
+    border: 1px solid white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: #202124;  
+}
+#input input{
+    width: 560px;
+    height: 24px;
+    border: none;
+    outline: none;
+} 
+#input img{
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   width: 24px;
+   height: 24px;
+   padding: 11px;
+}
+.botones{
+    width: 530px;
+    margin: 0 auto;  
+}
+.botones div{
+    display: inline-block;
+}
+#search a{
+    color: white;
+    text-decoration: none;
+}
+#lucky a{
+    color: white;
+    text-decoration: none;
+}
+.botones button{
+    height: 36px;
+    background: #303134;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0 15px;
+    margin-right: 10px;
+    border: 1px solid #303134;
+}
+button {
+    color: #bdc1c6;
+  }
+main #input #input-search:hover{
+    background: rgb(0, 0, 0);
+}
+button:hover {
+    border-color: white;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.548);
+    border-top: 1px solid #303134;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding-left: 0;
+}
+.footer-link{
+    justify-self: left;
+    margin-left: 25px;
+}
+.footer-link-derecha{
+    justify-self: right;
+    margin-right: 36px;
+}
+
+footer a{
+    margin: 12px;
+    color: rgba(255, 255, 255, 0.74);
+}
+#Colombia {
+    width: 100%;
+    height: 50px;
+    text-align:left;
+    background-color: rgba(0, 0, 0, 0.548);
+    padding-top: 5px;
+}
+#Colombia ul{
+    display:block;
+    list-style: none;
+    align-items: flex-start;
+}
