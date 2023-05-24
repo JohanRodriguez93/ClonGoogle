@@ -166,15 +166,3 @@ footer a{
     margin: 12px;
     color: rgba(255, 255, 255, 0.74);
 }
-#Colombia {
-    width: 100%;
-    height: 50px;
-    text-align:left;
-    background-color: rgba(0, 0, 0, 0.548);
-    padding-top: 5px;
-}
-#Colombia ul{
-    display:block;
-    list-style: none;
-    align-items: flex-start;
-}
